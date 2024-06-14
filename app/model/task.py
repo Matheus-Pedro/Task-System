@@ -1,7 +1,7 @@
 from pydantic import BaseModel
 from datetime import datetime
 
-class Task(BaseModel):
+class Tasks(BaseModel):
     id: int
     title: str
     content: str

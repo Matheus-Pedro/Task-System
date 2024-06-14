@@ -10,7 +10,7 @@ INSERT INTO completion_status (title) VALUES ('started');
 INSERT INTO completion_status (title) VALUES ('concluded');
 INSERT INTO completion_status (title) VALUES ('forgotten');
 
-CREATE TABLE IF NOT EXISTS task (
+CREATE TABLE IF NOT EXISTS tasks (
     id SERIAL PRIMARY KEY,
     title VARCHAR (50) NOT NULL,
     content TEXT NULL,
